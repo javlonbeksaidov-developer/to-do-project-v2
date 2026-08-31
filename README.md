@@ -65,12 +65,14 @@ to-do-project-v2/
 
 ## 🔌 API Endpoints
 
-### to do api
+### to-do api
 
-- @router.post("/todos")
-- @router.get("/todos")
-- @router.put("/todos/{id}")
-- @router.delete("/todos/{id}")
+| Method   | Endpoint              | Description               |
+| -------- | --------------------- | ------------------------- |
+| `POST`   | `/todos/`             | Create a todo             |
+| `GET`    | `/todos/`             | Read a todo               |
+| `PUT`    | `/todos/{id}`         | Update a todo             |
+| `DELETE` | `/todos/{id}`         | Delete a todo             |
 
 ---
 
