@@ -1,11 +1,32 @@
-# 📝 To-do FastAPI
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=180&section=header&text=To-Do%20FastAPI&fontSize=55&fontAlignY=35&animation=fadeIn&fontColor=ffffff" width="100%"/>
+
+<a href="https://github.com/javlonbeksaidov-developer">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Python+FastAPI+SQLite3;Create+%E2%80%A2+Read+%E2%80%A2+Update+%E2%80%A2+Delete;to-do+project+v2" alt="Typing SVG" />
+</a>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/FastAPI-Framework-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-Database-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Pydantic-Validation-E92063?style=flat-square&logo=pydantic&logoColor=white" />
+
+</p>
+
+</div>
+
+## 📌 About
 
 A simple and lightweight **Todo REST API** built with **FastAPI** and **SQLite3**.
 
 This project was created to practice backend fundamentals such as REST API, CRUD operations, Pydantic schemas, and SQLite database integration.
 
+**Start Project:** `08.08.2026`
 
-Create date: 08.08.2026
+**Status:** ✅ Completed
+
 ---
 
 ## 🚀 Features
@@ -18,19 +39,6 @@ Create date: 08.08.2026
 * 🔄 REST API
 * 📦 Pydantic data validation
 * 📚 Automatic Swagger API documentation
-
----
-
-## 🛠️ Tech Stack
-
-| Technology   | Purpose                 |
-| ------------ | ----------------------- |
-| Python       | Programming language    |
-| FastAPI      | REST API framework      |
-| Uvicorn      | ASGI server             |
-| SQLite3      | Database                |
-| Pydantic     | Request data validation |
-| Git / GitHub | Version control         |
 
 ---
 
@@ -53,37 +61,36 @@ to-do-project-v2/
 └── README.md
 ```
 
-### 📌 File Responsibilities
+---
 
-| File               | Description                                    |
-| ------------------ | ---------------------------------------------- |
-| `main.py`          | FastAPI application and router configuration   |
-| `database.py`      | SQLite connection and CRUD database operations |
-| `schemas.py`       | Pydantic request schemas                       |
-| `routes.py`        | API endpoints                                  |
-| `models.py`        | Database model area                            |
-| `requirements.txt` | Project dependencies                           |
-| `.gitignore`       | Files ignored by Git                           |
-| `todo.db`          | SQLite database                                |
+## 🔌 API Endpoints
+
+### to do api
+
+- @router.post("/todos")
+- @router.get("/todos")
+- @router.put("/todos/{id}")
+- @router.delete("/todos/{id}")
 
 ---
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
+### 1️⃣ Clone repository
 
 ```bash
 git clone <https://github.com/javlonbeksaidov-developer/to-do-project-v2.git>
+
 cd to-do-project-v2
 ```
 
-### 2. Create virtual environment
+### 2️⃣ Create virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3. Activate virtual environment
+### 3️⃣ Activate virtual environment
 
 **Windows — CMD:**
 
@@ -103,7 +110,7 @@ venv\Scripts\Activate.ps1
 source venv/Scripts/activate
 ```
 
-### 4. Install dependencies
+### 4️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -111,9 +118,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Project
-
-From the project root:
+## 5️⃣ Run the Project
 
 ```bash
 uvicorn app.main:app --reload
@@ -147,148 +152,36 @@ You can test all CRUD operations directly from Swagger UI.
 
 ---
 
-# 🔥 API Endpoints
+<div align="center">
 
-## Get All Todos
+# 👨‍💻 Author
 
-```http
-GET /todos
-```
+<table align="center">
+<tr>
+<td align="center" width="220">
 
-Returns all todos from the SQLite database.
+<img src="https://github.com/javlonbeksaidov-developer.png" width="150" height="150" style="border-radius:50%;" />
 
-### Example response
+</td>
 
-```json
-[
-    {
-        "id": 1,
-        "title": "Learn FastAPI",
-        "description": "Practice CRUD",
-        "status": false
-    }
-]
-```
+<td align="center">
 
----
+<h3>SOFTWARE ENGINEER</h3>
 
-## Create Todo
+<h3>Connect with me</h3>
 
-```http
-POST /todos
-```
+<p align="center"><a href="https://t.me/saidov_1701"><img src="https://img.icons8.com/fluency/64/telegram-app.png" width="45" alt="Telegram"/></a>&nbsp;&nbsp;&nbsp;<a href="https://instagram.com/#"><img src="https://img.icons8.com/fluency/64/instagram-new.png" width="45" alt="Instagram"/></a>&nbsp;&nbsp;&nbsp;<a href="https://facebook.com/javlonbeksaidov.developer"><img src="https://img.icons8.com/fluency/64/facebook-new.png" width="45" alt="Facebook"/></a>&nbsp;&nbsp;&nbsp;<a href="https://youtube.com/@JavlonbekSaidov-Developer"><img src="https://img.icons8.com/fluency/64/youtube-play.png" width="45" alt="YouTube"/></a>&nbsp;&nbsp;&nbsp;<a href="mailto:javlonbeksaidov09@gmail.com"><img src="https://img.icons8.com/fluency/64/gmail-new.png" width="45" alt="Gmail"/></a></p>
 
-### Request body
+</td>
+</tr>
+</table>
 
-```json
-{
-    "title": "Learn FastAPI",
-    "description": "Build Todo API",
-    "status": false
-}
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=1000&center=true&vCenter=true&width=650&lines=Javlonbek+Saidov+Alijon+o%27g%27li;Python+Backend+Developer" alt="Typing SVG" />
 
----
+<br><br>
 
-## Update Todo
+<strong>⭐ If you like this project, don't forget to give it a star!</strong>
 
-```http
-PUT /todos/{id}
-```
+</div>
 
-Example:
-
-```http
-PUT /todos/1
-```
-
-### Request body
-
-```json
-{
-    "title": "Learn FastAPI",
-    "description": "Practice SQLite CRUD",
-    "status": true
-}
-```
-
----
-
-## Delete Todo
-
-```http
-DELETE /todos/{id}
-```
-
-Example:
-
-```http
-DELETE /todos/1
-```
-
----
-
-# 🔄 CRUD Architecture
-
-```text
-                Client
-                  │
-                  ▼
-             FastAPI API
-                  │
-                  ▼
-               routes.py
-                  │
-          ┌───────┴───────┐
-          │               │
-          ▼               ▼
-      schemas.py      database.py
-          │               │
-          │               ▼
-          │            SQLite3
-          │               │
-          └───────────────┘
-                  │
-                  ▼
-               todo.db
-```
-
----
-
-# 🗄️ Database
-
-The project uses **SQLite3**.
-
-### Todo table
-
-```sql
-CREATE TABLE IF NOT EXISTS todo (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title VARCHAR(100),
-    description VARCHAR(255),
-    status BOOLEAN DEFAULT FALSE
-);
-```
-
-### Table structure
-
-| Column        | Type         | Description            |
-| ------------- | ------------ | ---------------------- |
-| `id`          | INTEGER      | Unique Todo ID         |
-| `title`       | VARCHAR(100) | Todo title             |
-| `description` | VARCHAR(255) | Todo description       |
-| `status`      | BOOLEAN      | Todo completion status |
-
----
-
-## 👨‍💻 Author
-
-**Javlonbek Saidov**
-
-Python Backend Developer
-
-GitHub: `javlonbeksaidov-developer`
-
----
-
-⭐ If this project helped you learn FastAPI, consider giving it a star!
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&animation=fadeIn" width="100%"/>
